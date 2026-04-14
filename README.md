@@ -3,8 +3,7 @@
 </h1>
 
 <p align="center">
-  System administrator at Romania's national broadcaster. Founder of <a href="https://photonspark.com">PhotonSpark</a>.<br/>
-  Featured in <b>Euronews</b> and <b>Innovation Labs</b>. <b>Google</b> security vulnerability disclosure.
+  Systems and infrastructure work at Romania's national broadcaster, plus a small hosting and AI company on the side (<a href="https://photonspark.com">PhotonSpark</a>).
 </p>
 
 <p align="center">
@@ -12,13 +11,6 @@
   <a href="https://photonspark.com"><img src="https://img.shields.io/badge/PhotonSpark-photonspark.com-FFD700?style=for-the-badge&logo=lightning&logoColor=FFD700&labelColor=0d1117" alt="PhotonSpark"/></a>
   <a href="https://linkedin.com/in/cesarpetrescu"><img src="https://img.shields.io/badge/LinkedIn-cesarpetrescu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn"/></a>
   <a href="mailto:cesar@photonspark.com"><img src="https://img.shields.io/badge/Email-cesar@photonspark.com-EA4335?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email"/></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/5x_Hackathon_Wins-FFD700?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/CCNA-Certified-1BA0D7?style=flat-square&logo=cisco&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Google-Security_Researcher-4285F4?style=flat-square&logo=google&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/3+_Years-Building_Infra-58A6FF?style=flat-square&labelColor=0d1117"/>
 </p>
 
 ---
@@ -32,19 +24,22 @@
 🎯 Targeting SRE, DevOps, and Infrastructure roles
 ```
 
-I ship production software across **web, iOS, Android, and Wear OS**, run my own network and homelab, and hold a **Google security vulnerability disclosure** (VRP - Permissions Bypass via Gemini API).
+I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program — more on that further down.
 
-**Right now** I'm operating Linux servers and Cisco networks at national scale, building a self-hosted AI platform with sandboxed coding, voice, and RAG memory, and running distributed mail and a web hosting platform on Kubernetes.
+Day to day, I help look after Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
 
 ---
 
 ### `> now`
 
 ```
-⚡ Scaling CDX with sandboxed code execution and multi-agent RAG
-🛰️ Rolling out BGP anycast across PhotonSpark edge PoPs
-📡 Writing post-mortems from the last VPLS migration at RADIOCOM
-📚 Reading: "Designing Data-Intensive Applications" and SRE Workbook
+⚡ Working on CDX, my self-hosted AI assistant — adding a safer way to run
+   code it generates, and better memory across conversations.
+🛰️ Setting up PhotonSpark's hosting network so visitors are served from
+   the server closest to them (faster, more reliable).
+📡 Writing up what we learned from a recent network migration at work, so
+   the next one goes smoother.
+📚 Reading: "Designing Data-Intensive Applications" and the SRE Workbook.
 ```
 
 ---
@@ -57,9 +52,9 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 | **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
 | **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
 
-> **@ RADIOCOM** - Deployed a nationwide **VPLS network** for a major client (multi-site L2 connectivity with HA). Built an internal operations platform (CRM, ticketing, contracts) now used daily by NOC and Call Center teams. Operate Linux/Windows servers with automated backups and Cisco infrastructure.
+> **@ RADIOCOM** — Helped set up a network that connects several of a client's offices together so they behave like one local network, with a backup path in case a link goes down (this is called VPLS). Also built an internal web app the NOC and Call Center teams use every day for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network upkeep, plus automated backups.
 >
-> **@ PhotonSpark** - Built and operate all infrastructure from scratch: distributed mail, Kubernetes web hosting, HA Ceph storage, and a self-hosted AI platform. Featured in Innovation Labs, ZF.ro, and Euronews.
+> **@ PhotonSpark** — Run the infrastructure side end to end: an email service, a small web-hosting platform built on Kubernetes, shared storage that stays available if a disk or server fails (Ceph), and a self-hosted AI assistant. The company has been covered by Innovation Labs, ZF.ro, and Euronews.
 
 ---
 
@@ -67,15 +62,15 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 
 | Project | Type | What it does |
 |---|---|---|
-| **CDX** | AI Platform · Solo | Self-hosted AI for coding, chat, and voice - web, mobile, and wearables |
-| **Distributed Mail** | Infrastructure · Solo | Production mail stack, thousands of emails/month, zero-downtime upgrades |
-| **Sparkboarding** | Platform · Solo | Enterprise docs → searchable knowledge with citations and compliance |
-| **Intranet Ops Suite** | Internal Product · Solo | CRM + ticketing deployed at RADIOCOM for NOC and service teams |
-| **SparkAI Canvas** | 🥇 Cursor Hackathon | Voice-first spatial thinking tool |
-| **AutoLLama** | MLOps · Solo | One command to build, configure, and launch local LLM inference |
-| **Even Notes** | Wearable · Solo | Real-time notes for Even G2 smart glasses with web admin panel |
-| **Web Hosting Platform** | Platform Eng · Solo | K8s-native self-service deployment with DNS, TLS, and rollback |
-| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | RPi 5 + on-prem vision + LLMs via site-to-site VPN |
+| **CDX** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
+| **Distributed Mail** | Infrastructure | The email service behind PhotonSpark — sends and receives mail reliably and can be updated without interrupting users. |
+| **Sparkboarding** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
+| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at RADIOCOM use day to day. |
+| **SparkAI Canvas** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
+| **AutoLLama** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
+| **Even Notes** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
+| **Web Hosting Platform** | Platform engineering | A self-service hosting panel for small sites — users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
+| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. |
 
 ---
 
@@ -95,15 +90,15 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 
 **CCNA Instructor** @ Hackademy, Faculty of Automatic Control and Computers *(Oct 2023 → Present)*
 
-Networking lectures + Cisco Packet Tracer labs. Built [hackademy.ro](https://hackademy.ro) (live seat counter, capacity lock, admin dashboard) and [awg.sprk.ro](https://awg.sprk.ro) (LAN event management with real-time slots).
+Teach basic networking and hands-on labs in Cisco Packet Tracer. Also built the two small sites the club uses for sign-ups and event management: [hackademy.ro](https://hackademy.ro) and [awg.sprk.ro](https://awg.sprk.ro).
 
 ---
 
 ### `> security-research`
 
-**Google VRP** - Permissions Bypass *(Jun 2025)*
+**Google VRP** — Permissions bypass *(Jun 2025)*
 
-Identified a bypass that let unauthenticated callers fetch transcripts of Members-only and Premium YouTube videos via `file_data.file_uri` in the Generative Language API. Built a cURL PoC, filed disclosure with evidence and proposed fixes.
+Found a way that someone without the right permissions could use Google's Generative Language API to pull transcripts of Members-only and Premium YouTube videos, and reported it to Google through their Vulnerability Reward Program.
 
 ---
 
@@ -207,8 +202,3 @@ Identified a bypass that let unauthenticated callers fetch transcripts of Member
   </picture>
 </p>
 
----
-
-<p align="center">
-  <sub><i>"i do stuff"</i></sub>
-</p>
