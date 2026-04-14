@@ -32,9 +32,20 @@
 🎯 Targeting SRE, DevOps, and Infrastructure roles
 ```
 
-I ship production software across **web, iOS, Android, and Wear OS**, run my own network and homelab, and hold a **Google security vulnerability disclosure** (VRP — Permissions Bypass via Gemini API).
+I ship production software across **web, iOS, Android, and Wear OS**, run my own network and homelab, and hold a **Google security vulnerability disclosure** (VRP - Permissions Bypass via Gemini API).
 
 **Right now** I'm operating Linux servers and Cisco networks at national scale, building a self-hosted AI platform with sandboxed coding, voice, and RAG memory, and running distributed mail and a web hosting platform on Kubernetes.
+
+---
+
+### `> now`
+
+```
+⚡ Scaling CDX with sandboxed code execution and multi-agent RAG
+🛰️ Rolling out BGP anycast across PhotonSpark edge PoPs
+📡 Writing post-mortems from the last VPLS migration at RADIOCOM
+📚 Reading: "Designing Data-Intensive Applications" and SRE Workbook
+```
 
 ---
 
@@ -42,13 +53,13 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 
 | Role | Company | Period |
 |---|---|---|
-| **System Administrator** | [RADIOCOM](https://radiocom.ro) — Romania's national broadcaster | Sep 2023 → Present |
+| **System Administrator** | [RADIOCOM](https://radiocom.ro) - Romania's national broadcaster | Sep 2023 → Present |
 | **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
 | **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
 
-> **@ RADIOCOM** — Deployed a nationwide **VPLS network** for a major client (multi-site L2 connectivity with HA). Built an internal operations platform (CRM, ticketing, contracts) now used daily by NOC and Call Center teams. Operate Linux/Windows servers with automated backups and Cisco infrastructure.
+> **@ RADIOCOM** - Deployed a nationwide **VPLS network** for a major client (multi-site L2 connectivity with HA). Built an internal operations platform (CRM, ticketing, contracts) now used daily by NOC and Call Center teams. Operate Linux/Windows servers with automated backups and Cisco infrastructure.
 >
-> **@ PhotonSpark** — Built and operate all infrastructure from scratch: distributed mail, Kubernetes web hosting, HA Ceph storage, and a self-hosted AI platform. Featured in Innovation Labs, ZF.ro, and Euronews.
+> **@ PhotonSpark** - Built and operate all infrastructure from scratch: distributed mail, Kubernetes web hosting, HA Ceph storage, and a self-hosted AI platform. Featured in Innovation Labs, ZF.ro, and Euronews.
 
 ---
 
@@ -56,7 +67,7 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 
 | Project | Type | What it does |
 |---|---|---|
-| **CDX** | AI Platform · Solo | Self-hosted AI for coding, chat, and voice — web, mobile, and wearables |
+| **CDX** | AI Platform · Solo | Self-hosted AI for coding, chat, and voice - web, mobile, and wearables |
 | **Distributed Mail** | Infrastructure · Solo | Production mail stack, thousands of emails/month, zero-downtime upgrades |
 | **Sparkboarding** | Platform · Solo | Enterprise docs → searchable knowledge with citations and compliance |
 | **Intranet Ops Suite** | Internal Product · Solo | CRM + ticketing deployed at RADIOCOM for NOC and service teams |
@@ -71,11 +82,11 @@ I ship production software across **web, iOS, Android, and Wear OS**, run my own
 ### `> competitions`
 
 ```
-🥇 SparkAI Canvas        — Cursor Hackathon Bucharest 2025
-🥇 AI onboarding app     — Innovation Labs CyberHack 2024
-🥈 AI homework checker   — EESTEC Olympics 2024
-🥈 Robot maze solver      — HARD & SOFT 2025
-🏅 Applied CS (5th)       — AcadNet Olympiad 2023 (National)
+🥇 SparkAI Canvas        - Cursor Hackathon Bucharest 2025
+🥇 AI onboarding app     - Innovation Labs CyberHack 2024
+🥈 AI homework checker   - EESTEC Olympics 2024
+🥈 Robot maze solver      - HARD & SOFT 2025
+🏅 Applied CS (5th)       - AcadNet Olympiad 2023 (National)
 ```
 
 ---
@@ -90,7 +101,7 @@ Networking lectures + Cisco Packet Tracer labs. Built [hackademy.ro](https://hac
 
 ### `> security-research`
 
-**Google VRP** — Permissions Bypass *(Jun 2025)*
+**Google VRP** - Permissions Bypass *(Jun 2025)*
 
 Identified a bypass that let unauthenticated callers fetch transcripts of Members-only and Premium YouTube videos via `file_data.file_uri` in the Generative Language API. Built a cURL PoC, filed disclosure with evidence and proposed fixes.
 
