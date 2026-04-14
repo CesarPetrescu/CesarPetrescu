@@ -24,23 +24,9 @@
 🎯 Targeting SRE, DevOps, and Infrastructure roles
 ```
 
-I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program — more on that further down.
+I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program.
 
 Day to day, I help look after Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
-
----
-
-### `> now`
-
-```
-⚡ Working on CDX, my self-hosted AI assistant — adding a safer way to run
-   code it generates, and better memory across conversations.
-🛰️ Setting up PhotonSpark's hosting network so visitors are served from
-   the server closest to them (faster, more reliable).
-📡 Writing up what we learned from a recent network migration at work, so
-   the next one goes smoother.
-📚 Reading: "Designing Data-Intensive Applications" and the SRE Workbook.
-```
 
 ---
 
@@ -52,9 +38,9 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 | **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
 | **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
 
-> **@ RADIOCOM** — Helped set up a network that connects several of a client's offices together so they behave like one local network, with a backup path in case a link goes down (this is called VPLS). Also built an internal web app the NOC and Call Center teams use every day for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network upkeep, plus automated backups.
+> **@ RADIOCOM**: Helped set up a network that connects several of a client's offices together so they behave like one local network, with a backup path in case a link goes down (this is called VPLS). Also built an internal web app the NOC and Call Center teams use every day for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network upkeep, plus automated backups.
 >
-> **@ PhotonSpark** — Run the infrastructure side end to end: an email service, a small web-hosting platform built on Kubernetes, shared storage that stays available if a disk or server fails (Ceph), and a self-hosted AI assistant. The company has been covered by Innovation Labs, ZF.ro, and Euronews.
+> **@ PhotonSpark**: Run the infrastructure side end to end: an email service, a small web-hosting platform built on Kubernetes, shared storage that stays available if a disk or server fails (Ceph), and a self-hosted AI assistant. The company has been covered by Innovation Labs, ZF.ro, and Euronews.
 
 ---
 
@@ -63,13 +49,13 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 | Project | Type | What it does |
 |---|---|---|
 | **CDX** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
-| **Distributed Mail** | Infrastructure | The email service behind PhotonSpark — sends and receives mail reliably and can be updated without interrupting users. |
+| **Distributed Mail** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
 | **Sparkboarding** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
 | **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at RADIOCOM use day to day. |
 | **SparkAI Canvas** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
 | **AutoLLama** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
 | **Even Notes** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
-| **Web Hosting Platform** | Platform engineering | A self-service hosting panel for small sites — users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
+| **Web Hosting Platform** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
 | **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. |
 
 ---
@@ -96,7 +82,7 @@ Teach basic networking and hands-on labs in Cisco Packet Tracer. Also built the 
 
 ### `> security-research`
 
-**Google VRP** — Permissions bypass *(Jun 2025)*
+**Google VRP**: Permissions bypass *(Jun 2025)*
 
 Found a way that someone without the right permissions could use Google's Generative Language API to pull transcripts of Members-only and Premium YouTube videos, and reported it to Google through their Vulnerability Reward Program.
 
