@@ -1,6 +1,8 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Cesar+Petrescu;Systems+%26+AI+Infrastructure" alt="Typing SVG" />
-</h1>
+<h1 align="center">Cesar Petrescu</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=40&lines=Systems+%26+AI+Infrastructure" alt="Systems & AI Infrastructure" />
+</p>
 
 <p align="center">
   Systems and infrastructure work at Romania's national broadcaster, plus a small hosting and AI company on the side (<a href="https://photonspark.com">PhotonSpark</a>).
@@ -41,6 +43,8 @@ Day to day, I administer Linux servers and Cisco networking gear at work, and I 
 > **@ RADIOCOM**: Helped deploy a VPLS network linking a client's offices into one L2 domain, with redundant failover paths. Built the internal web app the NOC and Call Center teams use daily for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network administration, plus automated backups.
 >
 > **@ PhotonSpark**: Run the infrastructure end to end: an email service, a Kubernetes-based web-hosting platform, highly available Ceph storage, and a self-hosted AI assistant. Covered by Innovation Labs, ZF.ro, and Euronews.
+>
+> **@ Five Cyber Host**: Day-to-day Linux system and network administration.
 
 ---
 
