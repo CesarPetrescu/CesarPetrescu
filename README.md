@@ -1,6 +1,8 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=80&lines=Cesar+Petrescu;Systems+%26+AI+Infrastructure" alt="Typing SVG" />
-</h1>
+<h1 align="center">Cesar Petrescu</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=40&lines=Systems+%26+AI+Infrastructure" alt="Systems & AI Infrastructure" />
+</p>
 
 <p align="center">
   Systems and infrastructure work at Romania's national broadcaster, plus a small hosting and AI company on the side (<a href="https://photonspark.com">PhotonSpark</a>).
@@ -24,9 +26,9 @@
 🎯 Targeting SRE, DevOps, and Infrastructure roles
 ```
 
-I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program.
+I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning.
 
-Day to day, I help look after Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
+Day to day, I administer Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
 
 ---
 
@@ -38,9 +40,11 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 | **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
 | **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
 
-> **@ RADIOCOM**: Helped set up a network that connects several of a client's offices together so they behave like one local network, with a backup path in case a link goes down (this is called VPLS). Also built an internal web app the NOC and Call Center teams use every day for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network upkeep, plus automated backups.
+> **@ RADIOCOM**: Helped deploy a VPLS network linking a client's offices into one L2 domain, with redundant failover paths. Built the internal web app the NOC and Call Center teams use daily for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network administration, plus automated backups.
 >
-> **@ PhotonSpark**: Run the infrastructure side end to end: an email service, a small web-hosting platform built on Kubernetes, shared storage that stays available if a disk or server fails (Ceph), and a self-hosted AI assistant. The company has been covered by Innovation Labs, ZF.ro, and Euronews.
+> **@ PhotonSpark**: Run the infrastructure end to end: an email service, a Kubernetes-based web-hosting platform, highly available Ceph storage, and a self-hosted AI assistant. Covered by Innovation Labs, ZF.ro, and Euronews.
+>
+> **@ Five Cyber Host**: Day-to-day Linux system and network administration.
 
 ---
 
@@ -48,15 +52,15 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 
 | Project | Type | What it does |
 |---|---|---|
-| **CDX** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
-| **Distributed Mail** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
-| **Sparkboarding** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
-| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at RADIOCOM use day to day. |
-| **SparkAI Canvas** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
-| **AutoLLama** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
-| **Even Notes** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
-| **Web Hosting Platform** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
-| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. |
+| **[CDX](https://cdx.sprk.ro/)** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
+| **[Distributed Mail](https://mail.electronsend.com)** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
+| **[Sparkboarding](https://panel.sparkboarding.com)** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
+| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at [RADIOCOM](https://radiocom.ro) use day to day. *(private code)* |
+| **[SparkAI Canvas](https://vibeapps.dev/s/sparkai-canvas)** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
+| **[AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy)** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
+| **[Even Notes](https://github.com/CesarPetrescu/evenNotes)** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
+| **[Web Hosting Platform](https://webhost.photonspark.com)** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
+| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. *(not public)* |
 
 ---
 
@@ -66,8 +70,8 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 🥇 SparkAI Canvas        - Cursor Hackathon Bucharest 2025
 🥇 AI onboarding app     - Innovation Labs CyberHack 2024
 🥈 AI homework checker   - EESTEC Olympics 2024
-🥈 Robot maze solver      - HARD & SOFT 2025
-🏅 Applied CS (5th)       - AcadNet Olympiad 2023 (National)
+🥈 Robot maze solver     - HARD & SOFT 2025
+🏅 Applied CS (5th)      - AcadNet Olympiad 2023 (National)
 ```
 
 ---
@@ -90,7 +94,7 @@ Found a way that someone without the right permissions could use Google's Genera
 
 ### `> tech --stack`
 
-<details>
+<details open>
 <summary><b>Infrastructure & Networking</b></summary>
 <br/>
 <p>
@@ -142,10 +146,6 @@ Found a way that someone without the right permissions could use Google's Genera
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/SSE-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 </p>
 </details>
 
@@ -167,9 +167,9 @@ Found a way that someone without the right permissions could use Google's Genera
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=default&hide_border=true"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=default&hide_border=true"/>
+    <img src="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
   </picture>
 </p>
 
