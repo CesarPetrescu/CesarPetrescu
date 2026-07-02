@@ -26,7 +26,7 @@
 
 I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program.
 
-Day to day, I help look after Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
+Day to day, I administer Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
 
 ---
 
@@ -38,9 +38,9 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 | **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
 | **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
 
-> **@ RADIOCOM**: Helped set up a network that connects several of a client's offices together so they behave like one local network, with a backup path in case a link goes down (this is called VPLS). Also built an internal web app the NOC and Call Center teams use every day for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network upkeep, plus automated backups.
+> **@ RADIOCOM**: Helped deploy a VPLS network linking a client's offices into one L2 domain, with redundant failover paths. Built the internal web app the NOC and Call Center teams use daily for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network administration, plus automated backups.
 >
-> **@ PhotonSpark**: Run the infrastructure side end to end: an email service, a small web-hosting platform built on Kubernetes, shared storage that stays available if a disk or server fails (Ceph), and a self-hosted AI assistant. The company has been covered by Innovation Labs, ZF.ro, and Euronews.
+> **@ PhotonSpark**: Run the infrastructure end to end: an email service, a Kubernetes-based web-hosting platform, highly available Ceph storage, and a self-hosted AI assistant. Covered by Innovation Labs, ZF.ro, and Euronews.
 
 ---
 
