@@ -90,7 +90,7 @@ Found a way that someone without the right permissions could use Google's Genera
 
 ### `> tech --stack`
 
-<details>
+<details open>
 <summary><b>Infrastructure & Networking</b></summary>
 <br/>
 <p>
@@ -142,10 +142,6 @@ Found a way that someone without the right permissions could use Google's Genera
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebSocket-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/SSE-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 </p>
 </details>
 
