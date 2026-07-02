@@ -48,15 +48,15 @@ Day to day, I help look after Linux servers and Cisco networking gear at work, a
 
 | Project | Type | What it does |
 |---|---|---|
-| **CDX** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
-| **Distributed Mail** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
-| **Sparkboarding** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
-| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at RADIOCOM use day to day. |
-| **SparkAI Canvas** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
-| **AutoLLama** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
-| **Even Notes** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
-| **Web Hosting Platform** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
-| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. |
+| **[CDX](https://cdx.sprk.ro/)** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
+| **[Distributed Mail](https://mail.electronsend.com)** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
+| **[Sparkboarding](https://panel.sparkboarding.com)** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
+| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at [RADIOCOM](https://radiocom.ro) use day to day. *(private code)* |
+| **[SparkAI Canvas](https://vibeapps.dev/s/sparkai-canvas)** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
+| **[AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy)** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
+| **[Even Notes](https://github.com/CesarPetrescu/evenNotes)** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
+| **[Web Hosting Platform](https://webhost.photonspark.com)** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
+| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. *(not public)* |
 
 ---
 
