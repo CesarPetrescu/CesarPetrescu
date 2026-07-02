@@ -24,7 +24,7 @@
 🎯 Targeting SRE, DevOps, and Infrastructure roles
 ```
 
-I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning. I also reported a permissions bug in Google's Generative Language API through their Vulnerability Reward Program.
+I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning.
 
 Day to day, I administer Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
 
@@ -66,8 +66,8 @@ Day to day, I administer Linux servers and Cisco networking gear at work, and I 
 🥇 SparkAI Canvas        - Cursor Hackathon Bucharest 2025
 🥇 AI onboarding app     - Innovation Labs CyberHack 2024
 🥈 AI homework checker   - EESTEC Olympics 2024
-🥈 Robot maze solver      - HARD & SOFT 2025
-🏅 Applied CS (5th)       - AcadNet Olympiad 2023 (National)
+🥈 Robot maze solver     - HARD & SOFT 2025
+🏅 Applied CS (5th)      - AcadNet Olympiad 2023 (National)
 ```
 
 ---
