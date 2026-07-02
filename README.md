@@ -167,9 +167,9 @@ Found a way that someone without the right permissions could use Google's Genera
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=default&hide_border=true"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=default&hide_border=true"/>
+    <img src="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
   </picture>
 </p>
 
