@@ -1,70 +1,73 @@
-<h1 align="center">Cesar Petrescu</h1>
+# Cesar Petrescu
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&height=40&lines=Systems+%26+AI+Infrastructure" alt="Systems & AI Infrastructure" />
-</p>
+Infrastructure & SRE engineer · Sysadmin @ RADIOCOM · Founder, PhotonSpark (AS216249) · Bucharest
 
-<p align="center">
-  Systems and infrastructure work at Romania's national broadcaster, plus a small hosting and AI company on the side (<a href="https://photonspark.com">PhotonSpark</a>).
-</p>
+[cesarpetrescu.com](https://cesarpetrescu.com) · [CV](https://cesarpetrescu.com/cv) · [LinkedIn](https://www.linkedin.com/in/cesar-petrescu-98a683267/) · [cesar@photonspark.com](mailto:cesar@photonspark.com)
 
-<p align="center">
-  <a href="https://cesarpetrescu.com"><img src="https://img.shields.io/badge/Portfolio-cesarpetrescu.com-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portfolio"/></a>
-  <a href="https://photonspark.com"><img src="https://img.shields.io/badge/PhotonSpark-photonspark.com-FFD700?style=for-the-badge&logo=lightning&logoColor=FFD700&labelColor=0d1117" alt="PhotonSpark"/></a>
-  <a href="https://linkedin.com/in/cesarpetrescu"><img src="https://img.shields.io/badge/LinkedIn-cesarpetrescu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117" alt="LinkedIn"/></a>
-  <a href="mailto:cesar@photonspark.com"><img src="https://img.shields.io/badge/Email-cesar@photonspark.com-EA4335?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117" alt="Email"/></a>
-</p>
+Open to SRE / DevOps / infrastructure roles: remote, or onsite in Bucharest.
 
----
+## What I run (PhotonSpark)
 
-### `> whoami`
+- **Ceph:** designed and operate a shared cluster (25 OSDs, 256 TiB raw, 3x replication, RBD for VM disks and CephFS) backing two Proxmox VE clusters and a 15+ server fleet (Dell R720, HPE DL360 Gen8/Gen10, i9-13900KS GPU nodes).
+- **K3s hosting platform** (cPanel alternative): Go API and a controller-runtime operator that reconciles a `Site` CRD into per-tenant namespaces; Envoy Gateway edge on public-IP nodes; cert-manager with Cloudflare DNS-01; site artifacts on Ceph RGW, served by a generic runtime image.
+- **Mail:** 3-node Stalwart cluster on own IP space (FoundationDB for data, MinIO for message storage), thousands of emails a month, zero-downtime upgrades.
+- **AS216249**, with the company's network engineer: own /24 announced over eBGP to upstream transit, standby DDoS-mitigation sessions.
+- **Inference:** 4x RTX 4090 cluster behind LiteLLM, served with llama.cpp via [AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy); MTP speculative decoding reaches 171 tok/s on Qwen3.6-35B-A3B.
 
-```
-📍 Bucharest, Romania
-🎓 CS @ Politehnica Bucharest (UPB ACS CTI)
-💼 Sysadmin @ RADIOCOM · CTO & Founder @ PhotonSpark (AS216249)
-🎯 Targeting SRE, DevOps, and Infrastructure roles
-```
+## Experience
 
-I build software for the web, iOS, Android, and Wear OS smart watches, and I run a small home network and lab to keep learning.
-
-Day to day, I administer Linux servers and Cisco networking gear at work, and I spend most of my side-project time on a self-hosted AI assistant (chat, voice, and a coding helper), an email service, and a small web-hosting platform.
-
----
-
-### `> experience`
-
-| Role | Company | Period |
+| Role | Org | Dates |
 |---|---|---|
-| **System Administrator** | [RADIOCOM](https://radiocom.ro) - Romania's national broadcaster | Sep 2023 → Present |
-| **CTO & Founder** | [PhotonSpark](https://photonspark.com) (AS216249) | Jan 2022 → Present |
-| **Network Administrator** | Five Cyber Host Security | Oct 2022 → Jan 2023 |
+| System Administrator | RADIOCOM | Sep 2023 – present |
+| CTO & Founder | PhotonSpark | Jan 2022 – present |
+| Infrastructure & Network Consultant | Freelance | 2026 – present |
+| Network Administrator | Five Cyber Host Security | Oct 2022 – Jan 2023 |
 
-> **@ RADIOCOM**: Helped deploy a VPLS network linking a client's offices into one L2 domain, with redundant failover paths. Built the internal web app the NOC and Call Center teams use daily for customer records, support tickets, and contracts. General Linux/Windows server and Cisco network administration, plus automated backups.
->
-> **@ PhotonSpark**: Run the infrastructure end to end: an email service, a Kubernetes-based web-hosting platform, highly available Ceph storage, and a self-hosted AI assistant. Covered by Innovation Labs, ZF.ro, and Euronews.
->
-> **@ Five Cyber Host**: Day-to-day Linux system and network administration.
+- **RADIOCOM:** Deployed a nationwide high-availability VPLS network for a major client, linking all sites at Layer 2. HA network on Cisco hardware, office network upgraded to FortiGate, Linux and Windows servers with automated backups. Developed RADI and built the ticketing and log-tracking tool used by the NOC and SOC teams.
+- **PhotonSpark:** Everything under *What I run*, plus a Go control plane for ops automation: a stateless, event-sourced orchestrator where the LLM proposes actions and a policy layer approves or denies them, with an append-only audit log. Self-hosted Keycloak SSO, Nextcloud, mail and Matrix. Won at [Innovation Labs](https://www.innovationlabs.ro/teams/PhotonSpark); featured in [ZF.ro](https://www.zf.ro/business-hi-tech/zf-it-generation-photon-spark-echipa-studenti-politehnica-matematica-22435014) and [Euronews](https://www.youtube.com/watch?v=bJEOjXv55nw).
+- **Consultant:** For a medical clinic, run the UniFi network and built a WireGuard site-to-site tunnel to a software vendor instead of GRE. In progress: a Zimbra 8.8.15 to Stalwart migration, 18 domains, feature-parity tested, domain by domain.
+- **Five Cyber Host Security:** Routers and VPNs across data centers; firewall rules and intrusion analysis.
 
----
+CS student at UPB (National University of Science and Technology POLITEHNICA Bucharest), Oct 2023 – present. CCNA. CCNA instructor at Hackademy, UPB, since Oct 2023; built [hackademy.ro](https://hackademy.ro) and awg.sprk.ro.
 
-### `> selected-work`
+## Selected work
 
-| Project | Type | What it does |
-|---|---|---|
-| **[CDX](https://cdx.sprk.ro/)** | AI platform | A self-hosted AI assistant you can chat with, talk to, or ask for help with code. Works on the web, phones, and smart watches. |
-| **[Distributed Mail](https://mail.electronsend.com)** | Infrastructure | The email service behind PhotonSpark. Sends and receives mail reliably and can be updated without interrupting users. |
-| **[Sparkboarding](https://panel.sparkboarding.com)** | Platform | Turns a company's internal documents into a searchable knowledge base that answers questions and links back to the source. |
-| **Intranet Ops Suite** | Internal product | The customer and ticketing tool the NOC and service teams at [RADIOCOM](https://radiocom.ro) use day to day. *(private code)* |
-| **[SparkAI Canvas](https://vibeapps.dev/s/sparkai-canvas)** | 🥇 Cursor Hackathon | A brainstorming tool where you move ideas around on a canvas and talk to them out loud. |
-| **[AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy)** | MLOps | A single command that sets up and runs an open-source large language model on your own machine. |
-| **[Even Notes](https://github.com/CesarPetrescu/evenNotes)** | Wearable | Note-taking for Even G2 smart glasses, with a web dashboard for managing them. |
-| **[Web Hosting Platform](https://webhost.photonspark.com)** | Platform engineering | A self-service hosting panel for small sites. Users get a domain, HTTPS, and one-click rollback, all running on Kubernetes. |
-| **Robot Maze Solver** | 🥈 HARD & SOFT 2025 | A Raspberry Pi robot that solves mazes using a camera and an AI model running on a server it reaches over a secure tunnel. *(not public)* |
+| Project | What it is | Stack | Link |
+|---|---|---|---|
+| **Ledger** | MCP project-context registry and append-only decision log shared by Claude, Codex CLI, ChatGPT and self-hosted agents | Go, PostgreSQL, MCP | [repo](https://github.com/CesarPetrescu/ledger) |
+| **Hosting platform** | Multi-tenant K3s platform; an operator reconciles a `Site` CRD into per-tenant namespaces | K3s, Go, Envoy Gateway, Ceph RGW | [live](https://webhost.photonspark.com) |
+| **Stalwart mail cluster** | 3-node mail cluster on own IP space, zero-downtime upgrades | Stalwart, FoundationDB, MinIO | private |
+| **Adastrion Core** | Speech service (STT, TTS, VAD) and sandboxed coding agent with per-chat VNC, Chrome CDP and MCP sandboxes | React, Flutter, WebSocket | private |
+| **AutoLLama** | llama.cpp build, launch and RPC distributed-inference toolkit with live memory planning | Python, llama.cpp | [repo](https://github.com/CesarPetrescu/llama-cpp-autodeploy) · [write-up](https://photonspark.com/blog/how-we-deploy-llama-cpp) |
+| **RADI** | Agentic RAG over company procedures; checks its answer against the sources and says "I don't know" instead of guessing | RAG, reranking | private |
+| **Tire sidewall recognition** | Sidewall photos to structured JSON: PaddleOCR, a self-hosted VLM pass, deterministic validation | PaddleOCR, llama.cpp | private (client) |
+| **Electrical Age port** | Circuit-simulation Minecraft mod, Forge 1.7.10 → 1.12.2 → NeoForge 1.21.1 | Java, Kotlin | [repo](https://github.com/CesarPetrescu/ElectricalAge) |
 
----
+<details>
+<summary><b>More projects</b></summary>
 
-### `> competitions`
+- **[PocketExit](https://github.com/CesarPetrescu/PocketExit):** SOCKS5 proxy whose exit nodes are Android phones; one authenticated WebSocket per circuit, control and exit routes chosen independently (control over Wi-Fi, exit over the SIM), phones only dial out. Go, Kotlin.
+- **[PocketHost](https://github.com/CesarPetrescu/PocketHost):** Android foreground service supervising native Go daemons (static web, file API, reverse proxy, Cloudflare DDNS/Tunnel), loopback-first by default. Go, Kotlin.
+- **[CrabSQL](https://github.com/CesarPetrescu/CrabSQL):** MySQL wire-protocol server: `mysql_native_password` auth, prepared statements, joins, aggregates, transactions with savepoints, `information_schema` subset. Rust.
+- **[lsp-mcp](https://github.com/CesarPetrescu/lsp-mcp):** exposes LSP navigation (definition, references, hover, call hierarchy, code actions) as MCP tools for Codex CLI. Python.
+- **[Even Notes](https://github.com/CesarPetrescu/evenNotes):** notes pushed live to Even G2 glasses over WebSocket. Node.js, TypeScript.
+- **[SparkAI Canvas](https://vibeapps.dev/s/sparkai-canvas):** voice-first spatial workspace; 1st at Cursor Hackathon Bucharest 2025.
+- **Dual-ESP32 audio-reactive LEDs:** two ESP32s over ESP-NOW drive 800 WS2812B LEDs from a subwoofer signal.
+
+</details>
+
+## Writing
+
+Technical write-ups on [photonspark.com](https://photonspark.com/blog):
+
+- [How we deploy llama.cpp at PhotonSpark](https://photonspark.com/blog/how-we-deploy-llama-cpp)
+- [Serving Qwen on two RTX 4090s: vLLM for traffic, llama.cpp for context](https://photonspark.com/blog/vllm-llama-cpp-qwen-dual-4090)
+- [TurboQuant and the KV cache problem](https://photonspark.com/blog/turboquant-kv-cache-benchmarks)
+- [Anycast DNS without the magic](https://photonspark.com/blog/anycast-dns-without-the-magic)
+- [Kubernetes vs Docker Swarm: pick the platform you can operate](https://photonspark.com/blog/kubernetes-vs-docker-swarm)
+- [When Docker Compose is the right answer](https://photonspark.com/blog/when-docker-compose-is-the-right-answer)
+
+## Competitions and security
 
 ```
 🥇 SparkAI Canvas        - Cursor Hackathon Bucharest 2025
@@ -72,104 +75,19 @@ Day to day, I administer Linux servers and Cisco networking gear at work, and I 
 🥈 AI homework checker   - EESTEC Olympics 2024
 🥈 Robot maze solver     - HARD & SOFT 2025
 🏅 Applied CS (5th)      - AcadNet Olympiad 2023 (National)
+🐛 Permissions bypass    - Google VRP, Jun 2025
 ```
 
----
+Google VRP: a permissions bypass let unauthenticated callers fetch transcripts of Members-only and Premium YouTube videos through the Generative Language API (`file_data.file_uri`).
 
-### `> volunteering`
+## Stack
 
-**CCNA Instructor** @ Hackademy, Faculty of Automatic Control and Computers *(Oct 2023 → Present)*
-
-Teach basic networking and hands-on labs in Cisco Packet Tracer. Also built the two small sites the club uses for sign-ups and event management: [hackademy.ro](https://hackademy.ro) and [awg.sprk.ro](https://awg.sprk.ro).
-
----
-
-### `> security-research`
-
-**Google VRP**: Permissions bypass *(Jun 2025)*
-
-Found a way that someone without the right permissions could use Google's Generative Language API to pull transcripts of Members-only and Premium YouTube videos, and reported it to Google through their Vulnerability Reward Program.
-
----
-
-### `> tech --stack`
-
-<details open>
-<summary><b>Infrastructure & Networking</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Proxmox_VE-E57000?style=flat-square&logo=proxmox&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ceph-EF5C55?style=flat-square&logo=ceph&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/QEMU-FF6600?style=flat-square&logo=qemu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Cisco_IOS-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FortiGate-EE3124?style=flat-square&logo=fortinet&logoColor=white"/>
-  <img src="https://img.shields.io/badge/pfSense-212121?style=flat-square&logo=pfsense&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenBSD-F2CA30?style=flat-square&logo=openbsd&logoColor=black"/>
-  <img src="https://img.shields.io/badge/VPLS-0d1117?style=flat-square"/>
-  <img src="https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white"/>
-</p>
-</details>
-
-<details>
-<summary><b>AI / ML</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/llama.cpp-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/LiteLLM-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/MCP-58A6FF?style=flat-square"/>
-  <img src="https://img.shields.io/badge/OpenWebUI-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/RAG-412991?style=flat-square"/>
-  <img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white"/>
-</p>
-</details>
-
-<details>
-<summary><b>Languages & Frameworks</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white"/>
-</p>
-</details>
-
-<details>
-<summary><b>Data & Services</b></summary>
-<br/>
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis_Stack-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FoundationDB-003B57?style=flat-square"/>
-  <img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Stalwart-000000?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square"/>
-</p>
-</details>
-
----
-
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=default&hide_border=true"/>
-    <img src="https://streak-stats.demolab.com/?user=CesarPetrescu&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-  </picture>
-</p>
-
+- **Languages:** Go, Python, TypeScript/JavaScript, C, Java/Kotlin, Swift, Bash, SQL
+- **Networking:** WireGuard, GRE, VLANs, firewalling (FortiGate, nftables, pfSense), Cisco IOS, UniFi
+- **Infrastructure:** Kubernetes (K3s), Proxmox VE, Ceph, Docker, Ansible, Envoy, cert-manager
+- **Observability:** Prometheus, node_exporter
+- **Data:** PostgreSQL (CloudNativePG), MySQL/MariaDB, Redis, FoundationDB, ArangoDB, Neo4j
+- **Vector:** Qdrant, pgvector
+- **AI/LLM:** llama.cpp, vLLM, SGLang, LiteLLM, NVIDIA NeMo, RAG (hybrid retrieval, reranking)
+- **Agents:** Claude Code, Codex CLI, Hermes Agent, MCP
+- **OS:** Linux, Windows Server, OpenBSD, Android, iOS
