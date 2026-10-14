@@ -14,23 +14,6 @@ Open to SRE / DevOps / infrastructure roles: remote, or onsite in Bucharest.
 - **AS216249**, with the company's network engineer: own /24 announced over eBGP to upstream transit, standby DDoS-mitigation sessions.
 - **Inference:** 4x RTX 4090 cluster behind LiteLLM, served with llama.cpp via [AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy); MTP speculative decoding reaches 171 tok/s on Qwen3.6-35B-A3B.
 
-```mermaid
-flowchart LR
-  subgraph k3s[K3s]
-    envoy[Envoy Gateway] --> tenants[tenant namespaces]
-    op[Site operator] -. reconciles .-> tenants
-  end
-  subgraph ceph[Ceph · 25 OSDs · 256 TiB raw · 3x]
-    rgw[(RGW)]
-    rbd[(RBD)]
-    cephfs[(CephFS)]
-  end
-  tenants -- site artifacts --> rgw
-  pve[Proxmox VE x2] -- VM disks --> rbd
-  stalwart[Stalwart x3] --> fdb[(FoundationDB)]
-  stalwart --> minio[(MinIO)]
-  litellm[LiteLLM] --> gpus[4x RTX 4090 · llama.cpp]
-```
 
 ## Experience
 
@@ -52,14 +35,14 @@ CS student at UPB (National University of Science and Technology POLITEHNICA Buc
 
 | Project | What it is | Stack | Link |
 |---|---|---|---|
-| **Ledger** | Self-hosted MCP project-context registry and append-only decision log, used by Claude, Codex CLI, ChatGPT and self-hosted agents; drives a daily multi-agent news pipeline | Go, PostgreSQL, OAuth (CIMD), Qwen3 embeddings + reranker, Docker Compose | [repo](https://github.com/CesarPetrescu/ledger) |
-| **Hosting platform** | Multi-tenant K3s platform: Go API and controller-runtime operator reconciling a `Site` CRD into per-tenant namespaces | K3s, Go, Envoy Gateway, cert-manager, Ceph RGW | [live](https://webhost.photonspark.com) |
+| **Ledger** | MCP project-context registry and append-only decision log shared by Claude, Codex CLI, ChatGPT and self-hosted agents | Go, PostgreSQL, MCP | [repo](https://github.com/CesarPetrescu/ledger) |
+| **Hosting platform** | Multi-tenant K3s platform; an operator reconciles a `Site` CRD into per-tenant namespaces | K3s, Go, Envoy Gateway, Ceph RGW | [live](https://webhost.photonspark.com) |
 | **Stalwart mail cluster** | 3-node mail cluster on own IP space, zero-downtime upgrades | Stalwart, FoundationDB, MinIO | private |
-| **Adastrion Core** | Speech service (STT, TTS, VAD, speech-to-speech) and sandboxed coding agent; per-chat sandboxes (VNC, Chrome CDP, MCP) run by a planner, executor and checker pipeline; JWT gateway auth | React, Flutter (Android, Wear OS), SSE, WebSocket | private |
-| **AutoLLama** | llama.cpp build and deploy toolkit: CUDA/MMQ and MKL/OpenBLAS builds, TUIs with live memory planning, RPC distributed inference with worker auto-discovery, fail-fast misconfiguration guardrails | Python, llama.cpp, LiteLLM | [repo](https://github.com/CesarPetrescu/llama-cpp-autodeploy) · [write-up](https://photonspark.com/blog/how-we-deploy-llama-cpp) |
-| **RADI** | RADIOCOM's internal RAG assistant over procedures, work instructions and regulations: routes each question, multi-hop retrieval with reranking, checks its answer against the sources and says "I don't know" instead of guessing | RAG, reranking | private |
-| **Tire sidewall recognition** | Embossed black-on-black sidewall text to structured JSON: polar unwrap into sector crops, multi-view PaddleOCR, self-hosted VLM pass, deterministic validation with per-field provenance and human review | PaddleOCR, llama.cpp | private (client) |
-| **Electrical Age port** | Java/Kotlin circuit-simulation Minecraft mod, ported from Forge 1.7.10 to 1.12.2, then to NeoForge 1.21.1 | Java, Kotlin, NeoForge | [repo](https://github.com/CesarPetrescu/ElectricalAge) |
+| **Adastrion Core** | Speech service (STT, TTS, VAD) and sandboxed coding agent with per-chat VNC, Chrome CDP and MCP sandboxes | React, Flutter, WebSocket | private |
+| **AutoLLama** | llama.cpp build, launch and RPC distributed-inference toolkit with live memory planning | Python, llama.cpp | [repo](https://github.com/CesarPetrescu/llama-cpp-autodeploy) · [write-up](https://photonspark.com/blog/how-we-deploy-llama-cpp) |
+| **RADI** | Agentic RAG over company procedures; checks its answer against the sources and says "I don't know" instead of guessing | RAG, reranking | private |
+| **Tire sidewall recognition** | Sidewall photos to structured JSON: PaddleOCR, a self-hosted VLM pass, deterministic validation | PaddleOCR, llama.cpp | private (client) |
+| **Electrical Age port** | Circuit-simulation Minecraft mod, Forge 1.7.10 → 1.12.2 → NeoForge 1.21.1 | Java, Kotlin | [repo](https://github.com/CesarPetrescu/ElectricalAge) |
 
 <details>
 <summary><b>More projects</b></summary>
