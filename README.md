@@ -14,7 +14,6 @@ Open to SRE / DevOps / infrastructure roles: remote, or onsite in Bucharest.
 - **AS216249**, with the company's network engineer: own /24 announced over eBGP to upstream transit, standby DDoS-mitigation sessions.
 - **Inference:** 4x RTX 4090 cluster behind LiteLLM, served with llama.cpp via [AutoLLama](https://github.com/CesarPetrescu/llama-cpp-autodeploy); MTP speculative decoding reaches 171 tok/s on Qwen3.6-35B-A3B.
 
-
 ## Experience
 
 | Role | Org | Dates |
